@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedro Valenzuela's Portfolio</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
   </head>
   <body>
     <header>
@@ -17,21 +18,30 @@
     </header>
     <main>
       <section class="bienvenida">
+        <h2>Welcome</h2>
+        <p>to my portfolio website!</p><br>
+        <p>A place where I state what I've done and what have I learned from it!</p>
         <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
       </section>
       <section class="proyectos">
         <h2>My projects:</h2>
         <h3>Portfolio website:</h3>
-        <h4>Description: </h4>
-        <h4>What was used:</h4>
+        <h4>Description: Design and build a website to show the projects I've been working on</h4>
+        <h4>What was used: HTML, CSS, and JavaScript.</h4>
         <h3>Motivational messages gen:</h3>
-        <h4>Description: </h4>
-        <h4>What was used:</h4>
+        <h4>Description: A program that shows you messages according to the basic emotion you are feeling!</h4>
+        <h4>What was used: JavaScript.</h4>
       </section>
     </main>
     <footer>
       <form action="" method="">
-        
+        <label for="nombre">Write your name:</label><br>
+        <input type="text" minlength="2" maxlength="30" id="nombre" name="nombre" placeholder="Nombre"><br>
+        <label for="correo">Write your email:</label><br>
+        <input type="text" minlength="5" maxlength="70" id="correo" name="correo" placeholder="Correo"><br>
+        <label for="motivo">Why are you contacting me?:</label><br>
+        <textarea id="motivo" name="motivo" cols="50" rows="10">Contáctenos</textarea>
+        <input type="submit">
       </form>
     </footer>
   </body>
